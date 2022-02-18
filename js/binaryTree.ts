@@ -1,16 +1,5 @@
 import { Node } from './Node'
-
-const a = new Node('A')
-const b = new Node('B')
-const c = new Node('C')
-const d = new Node('D')
-const e = new Node('E')
-
-a.left = b
-a.right = c
-b.left = d
-b.right = e
-
+import { root } from './Tree'
 
 // traverse tree and return array with values
 
@@ -23,5 +12,4 @@ const traverse_tree = (node: Node) => {
 		]
 }
 
-
-console.log(traverse_tree(a))
+console.log(traverse_tree(root))
