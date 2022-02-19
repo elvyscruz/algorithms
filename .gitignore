@@ -1,5 +1,5 @@
 #Exclude tsc generated files
-js/*.map
-js/*.js
+js/**/*.map
+js/**/*.js
 *.swp
 *.swo
